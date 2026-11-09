@@ -1,0 +1,29 @@
+# Build output
+/target/
+/build/
+/bin/
+/out/
+/dist/
+
+# Built artifacts: publish these as GitHub Releases instead of committing them
+/*.jar
+/*.zip
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+
+# IDE and editor settings
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
